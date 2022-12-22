@@ -1,0 +1,45 @@
+<div class="container mt-4 title">
+    <div class="row">
+        <div class="col">
+            <h1>
+                <i class="i fa-solid fa-eye"></i>&nbsp;
+               View Contact Page
+            </h1>
+            <p style="text-align: justify;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde obcaecati excepturi id eos repellendus,
+                facere a minima magni debitis quidem ab suscipit praesentium est? Quisquam temporibus aperiam officiis
+                laboriosam necessitatibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam veritatis,
+                aliquam, eum, qui laboriosam hic quos quasi error accusamus eligendi suscipit nemo eius dolores mollitia
+                ea delectus consequuntur voluptatibus dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae mollitia, minima id reprehenderit, laboriosam saepe commodi eius accusamus dolore sequi
+                deserunt ut esse dolores debitis quibusdam! Maiores eligendi distinctio sint?
+            </p>
+        </div>
+    </div>
+
+    <!-- contact details -->
+    <div class="container mt-4 mb-4">
+        <div class="row border p-5 align-items-center">
+            <div class="col-md-3">
+                <div class="text-center"><img height="250px" [src]="contact.photo" class="w-75" alt=""></div>
+                <br>
+                <div class="text-center">
+                    <a class="btn btn-warning" routerLink="/">
+                        <i class="fa-regular fa-circle-left"></i>
+                        Go back</a>
+                </div>
+            </div>
+            <div class="col-md-1 pt-3"></div>
+            <div class="col-md-8">
+                <!-- contact details -->
+                <ul class="list-group">
+                    <li class="list-group-item">Name : <b>{{contact.name}}</b></li>
+                    <li class="list-group-item">Email : <b>{{contact.email}}</b></li>
+                    <li class="list-group-item">Mobile : <b>{{contact.mobile}}</b></li>
+                    <li class="list-group-item">Company : <b>{{contact.company}}</b></li>
+                    <li class="list-group-item">Title : <b>{{contact.title}}</b></li>
+                    <li class="list-group-item">Group : <b>{{groupName}}</b></li>
+                  </ul>
+            </div>
+        </div>
+    </div>
