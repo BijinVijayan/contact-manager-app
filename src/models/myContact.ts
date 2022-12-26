@@ -5,5 +5,6 @@ export class MyContact{
     photo?:string
     mobile?:string
     company?:string
-    groupID?:string
+    title?:string
+    groupId?:string
 }

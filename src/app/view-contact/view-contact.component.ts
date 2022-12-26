@@ -25,13 +25,13 @@ export class ViewContactComponent implements OnInit{
       .subscribe((data:any)=>{
       this.contact=data
       this.groupId= data.groupId
-      console.log(this.groupId);
+      // console.log(this.groupId);
       
       // group name api
     this.api.getGroupName(this.groupId)
     .subscribe((result:any)=>{
       this.groupName=result.name
-      console.log(this.groupName);
+      // console.log(this.groupName);
       
     })
     })
